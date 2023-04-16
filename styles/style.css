@@ -25,3 +25,13 @@ p, h1, h2, h3, h4, h5, h6 {
 #root, #__next {
   isolation: isolate;
 }
+
+.grid{
+    display: grid;
+}
+
+.image-grid-3-m4{
+    grid-template-rows: repeat(7, 1fr);
+    grid-template-columns: repeat(14, 1fr);
+    gap: 0.5rem;
+}
